@@ -1,0 +1,41 @@
+Java is portable language because it can be converted to byte code during compilation. During execution this byte code is converted to native code.
+Scanner class is used to take input which comes from package - util.*;
+
+//Input-
+Scanner sc = new Scanner(System.in)
+String name = sc.next()   //For string, catches only one token
+              sc.nextLine() // for whole line
+              sc.nextInt()   // For integer input.
+
+------------
+//switch- to use insted of if/else
+
+switch(x){
+case 1: syso()
+break;
+case 2: syso()
+break;
+default: syso()
+break;
+}
+------------
+
+
+//Loops
+for(intialization;condition;upgraadation){}
+
+//while loop
+
+initialization
+while(condition){
+sout
+upgradation
+}
+
+//do while
+
+initialization
+do{sout
+upgradation
+ }
+while(condition)
