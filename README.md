@@ -1,2 +1,2 @@
 # Java-Practice
-Butterfly - 2 *(n-i)
+Butterfly(Spaces) - 2 *(n-i)
