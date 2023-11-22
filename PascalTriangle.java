@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.Scanner;
 
 public class PascalTriangle {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print(" rows: ");
         int n = sc.nextInt();

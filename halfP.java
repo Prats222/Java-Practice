@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class halfP {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         int n = 4;
 
         for (int i = n; i >= 1; i--) {

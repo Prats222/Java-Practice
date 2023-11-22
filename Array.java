@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Array {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         // -----------------------------------------------------------------------
         // int marks[] = { 98, 97, 96 };
         // // int[] marks = new int[3];

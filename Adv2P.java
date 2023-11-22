@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Adv2P {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         // RHOMBUS
 
         // int n = 5;

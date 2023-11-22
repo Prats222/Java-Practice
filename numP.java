@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class numP {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         // int n = 5;
 
         // backwards inverted number
