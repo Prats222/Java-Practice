@@ -1,4 +1,4 @@
-package oops;
+package ObjectPassing;
 
 public class car {
     String make = "Maruti";
