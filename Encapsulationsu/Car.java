@@ -16,6 +16,11 @@ public class Car {
         this.setYear(year);
     }
 
+    // copy constructor
+    Car(Car x) {
+        this.copy(x);
+    }
+
     // getter method
     public String getMake() {
         return make;
@@ -40,5 +45,12 @@ public class Car {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    // copy method
+    public void copy(Car x) {
+        this.setMake(x.getMake());
+        this.setModel(x.getModel());
+        this.setYear(x.getYear());
     }
 }
