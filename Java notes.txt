@@ -39,3 +39,6 @@ do{sout
 upgradation
  }
 while(condition)
+
+
+abstract class in public abstract class vechile, wont allow to create object of same name

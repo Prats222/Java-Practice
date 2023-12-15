@@ -6,6 +6,8 @@ public class Main {
         car Car = new car();
 
         gg.park(Car);
+        gg.drive(Car);
+        System.out.println(Car.toString());
     }
 
 }
