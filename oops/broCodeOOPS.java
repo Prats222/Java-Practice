@@ -1,7 +1,5 @@
 package oops;
 
-import java.util.*;
-
 public class broCodeOOPS {
     public static void main(String[] args) {
         car myCar = new car();
