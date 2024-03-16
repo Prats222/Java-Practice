@@ -36,4 +36,29 @@ public class codingNinjaPush {
         }
     }
 
+    // Reverse k elemnts LL(hard) 16/3/24
+    Node curr = head;
+    Node prev = null;
+    Node next = null;
+    int count = 0;
+
+  Node temp=head;for(
+    int i = 0;i<k;i++)
+    {
+        // checking if k nodes exist or not
+        if (temp == null) {
+            return head;
+        }
+        temp = temp.next;
+    }while(count<k&&curr!=null)
+    {
+        next = curr.next;
+        curr.next = prev;
+        prev = curr;
+        curr = next;
+        count++;
+    }if(next!=null)
+    {
+        head.next = kReverse(next, k);
+    }return prev;
 }
