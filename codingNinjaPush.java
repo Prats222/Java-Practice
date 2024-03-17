@@ -61,4 +61,37 @@ public class codingNinjaPush {
     {
         head.next = kReverse(next, k);
     }return prev;
-}
+
+    // DLL(easy 4 +medium 3), LL completed
+    // Dll delete identical nodes
+    public static Node deleteAllOccurrences(Node head, int k) {
+        // Write your code here.
+        if(head==null || head.next==null){
+            return null;
+        }
+        if(head!=null && head.data==k ){
+            head=head.next;
+            if(head!=null){
+                head.prev=null;
+            }
+        }
+        Node curr=head;
+        while(curr!=null){
+            if(curr.data==k){
+                Node prev=curr.prev;
+                Node next=curr.next;
+                if(prev!=null){
+                    prev.next=next;
+                }
+                if(next!=null){
+                    next.prev=prev;
+                }
+                if (curr == head) {
+                    head = next;
+                }
+            }
+            curr=curr.next;
+        }
+        return head;
+    }
+}}
