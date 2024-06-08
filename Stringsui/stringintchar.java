@@ -11,6 +11,6 @@ public class stringintchar {
         System.out.println(str);
 
         System.out.println("abc" + "x" + 22 + 10); // abcx2210
-        System.out.println(22 + 10 + "abc" + "x"); // 30abcx
+        System.out.println(22 + 10 + "abc" + "x"); // 32abcx
     }
 }
